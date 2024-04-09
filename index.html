@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/Logo3_png (2).png"
+      type="image/x-icon"
+    />
+    <title>Swing Academy</title>
+    <!-- bootstrap icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-ligth">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/images/Logo3_png (1).png"
+              width="100"
+              alt="Logo de la pagina"
+            />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center aling-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Academia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/contactos.html" target="blank"
+                >Contactos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="container">Swing Academy</h1>
+    <!-- seccion Hero-->
+
+    <section>
+      <div class="container">
+        <img
+          src="./assets/images/img_banner2.jpg"
+          alt="Imagen banner"
+          class="img-fluid"
+        />
+        <h2>Pasa a la Accion</h2>
+      </div>
+    </section>
+
+    <!-- entrenamientos -->
+    <h2>Mejora tu juego</h2>
+    <section class="entrenamientos seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--bateo-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-trophy-fill"></i>
+            <p class="entrenamientos-titulo">Mejora tu mecanica de bateo</p>
+            <p>
+              Perfecciona tus habilidades en el plato con nuestro programa de
+              entrenamiento diseñado para pulir tu técnica de bateo, aumentar tu
+              precisión y potencia al golpear la pelota.
+            </p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-dark">Entrenamiento</span>
+              <span class="badge text-bg-dark">Fuerza</span>
+              <span class="badge text-bg-dark">Concentracion</span>
+              <span class="badge text-bg-dark">Presicion</span>
+            </div>
+          </div>
+
+          <!--lanzamiento-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-crosshair"></i>
+            <p class="entrenamientos-titulo">Domina tus lanzamientos</p>
+            <p>
+              Conviértete en un lanzador imparable al perfeccionar tus técnicas
+              de lanzamiento con la ayuda de nuestros expertos instructores.
+              Desde la velocidad hasta la precisión, te proporcionamos las
+              herramientas para dominar el montículo
+            </p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-dark">Lanzamientos</span>
+              <span class="badge text-bg-dark">Control</span>
+              <span class="badge text-bg-dark">Velocidad</span>
+              <span class="badge text-bg-dark">Presicion</span>
+            </div>
+          </div>
+          <!--estrategias-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-eye-fill"></i>
+            <p class="entrenamientos-titulo">Adquiere vision de juego</p>
+            <p>
+              Desarrolla una perspectiva estratégica única en el campo al
+              mejorar tu visión de juego con nuestra capacitación especializada.
+              Aprende a anticipar jugadas, leer movimientos y tomar decisiones
+              inteligentes en cada situación.
+            </p>
+            <div class="badge-contenedor">
+              <span class="badge text-bg-dark">vision</span>
+              <span class="badge text-bg-dark">Estrategia</span>
+              <span class="badge text-bg-dark">Desplazamientos</span>
+              <span class="badge text-bg-dark">Jugadas</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--video sobre academia-->
+    <section class="container">
+      <div class="reproductor-video">
+        <video width="100%" controls>
+          <source
+            src="./assets/Videos/Infield Drills To Perfect Your Craft _ Coach Lou Colon.mp4"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </section>
+
+    <!--articulos sobre deporte-->
+    <h2 class="texto-negro">Articulos</h2>
+    <section class="articulos justify-content-center">
+      <div class="card">
+        <div class="card-header">Novedades en el mundo del beisbol</div>
+        <ul class="list-group list-group-flush">
+          <a
+            href="https://www.mlb.com/es/news/bernie-williams-on-aaron-judge-juan-soto-yankees"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><li class="list-group-item">
+              Bernie Willians opina sobre Aaron judge y Juan Soto
+            </li></a
+          >
+
+          <a
+            href="https://www.mlb.com/es/news/los-mejores-bullpens-de-mlb-2024"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><li class="list-group-item">
+              Los mejores 10 bullpens de Grandes Ligas son…
+            </li></a
+          >
+          <a
+            href="https://www.mlb.com/es/news/carlos-carrasco-se-gana-su-antiguo-puesto-y-numero-con-guardianes"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><li class="list-group-item">
+              Carrasco se gana su antiguo puesto y número con Guardianes
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <div class="boton-articulos">
+      <a
+        href="https://www.espn.com.ar/beisbol/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button type="button" class="btn btn-info">
+          Ver mas Articulos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </div>
+
+    <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">
+        Estos son algunos testimonios de nuestros alummnos...
+      </h3>
+
+      <!-- Carrusel -->
+      <div
+        id="testimonios-carrusel"
+        class="carousel carousel-dark slide mx-auto"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./assets/images/img_testimonio2 (1).jpg"
+                alt="Foto de Santi"
+              />
+              <p class="testimonio-texto">
+                La experiencia en Swing Academy fue increíble. Aprendí tanto
+                sobre cómo sostener el bate correctamente y cómo balancearlo
+                para golpear la pelota con más fuerza. Los entrenadores fueron
+                muy pacientes y me ayudaron a corregir mis movimientos.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Santi</p>
+                <p class="cargo">Porspecto Medias Rojas de Boston</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./assets/images/img_testimonio2 (2).jpg"
+                alt="Foto de Ruben"
+              />
+              <p class="testimonio-texto">
+                Ir a Swing Academy fue una experiencia que nunca olvidaré.
+                Aprendí tanto sobre estrategias de juego y cómo mejorar mi
+                rendimiento. Los entrenadores eran muy talentosos y dedicados.
+                Nos enseñaron cómo trabajar en equipo
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Ana</p>
+                <p class="cargo">Prospecto de los Dodgers de los Anageles</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img
+                class="testimonio-imagen rounded-circle"
+                src="./assets/images/img_testimonio3.jpg"
+                alt="Foto de Jesus"
+              />
+              <p class="testimonio-texto">
+                Swing Academy fue una experiencia transformadora para mí.
+                Aprendí tanto sobre la importancia del entrenamiento físico y
+                mental. Los entrenadores nos desafiaron constantemente a superar
+                nuestros límites y a esforzarnos por la excelencia en cada
+                aspecto del juego.
+              </p>
+              <div class="testimonio-info">
+                <p class="cliente">Jesus</p>
+                <p class="cargo">Prospecto de Los Yankees de Nueva York</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonios-carrusel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!--contactos-->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div
+          class="container text-center rectangulo d-flex justify-content-evenly"
+        >
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Somos apasionados del béisbol!
+            </div>
+            <div class="col-12 col-md-4 descripcion">Entrena con Nosotros</div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de pagina (footer) -->
+    <footer
+      class="seccion-oscura d-flex flex-column align-items-center justify-content-center"
+    >
+      <img
+        class="footer-logo"
+        src="./assets/images/Logo3_png (1).png"
+        alt="Logo del portafolio"
+      />
+      <p class="footer-texto text-center">
+        ¡Contáctanos hoy y comienza tu viaje hacia la grandeza en el béisbol!<br />espacio
+        para agregar contenido.
+      </p>
+      <div
+        class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center"
+      >
+        <a
+          href="https://twitter.com/?lang=es"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a
+          href="mailto:Swingacademy5b@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Ruben Rincon (2024) &#169;</div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
