@@ -1,7 +1,7 @@
 {
   "name": "preentrega_3-rincon",
   "version": "1.0.0",
-  "description": "preentrega_3 proyecto coder",
+  "description": "Proyecto coder",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
