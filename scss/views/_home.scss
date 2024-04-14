@@ -1,0 +1,29 @@
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+}
+
+.entrenamientos {
+    padding: 40px 0;
+}
+
+.articulos {
+    padding: 40px 0;
+}
+
+.testimonios {
+    padding: 40px 0;
+}
+
+.contacto {
+    padding: 40px 0;
+    background-color: $color-clara;
+}

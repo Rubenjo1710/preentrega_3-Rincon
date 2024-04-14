@@ -5,10 +5,10 @@
 }
 
 .contacto button {
-    color: white;
+    color: $color-blanco;
     font-weight: bold;
     background-color: transparent;
-    border: 2px solid white;
+    border: 2px solid $color-blanco;
     padding: 1.25em 2em;
     margin: 10px;
     border-radius: 100px;
@@ -16,16 +16,16 @@
 }
 
 .contacto button:hover {
-    background-color: white;
-    color: black;
+    background-color: $color-blanco;
+    color: $color-negro;
 }
 
 .contacto button i {
-    color: white;
+    color: $color-blanco;
     font-size: 1.3rem;
     transition: all 0.2s ease-in-out;
 }
 
 .contacto button:hover i {
-    color: black;
+    color: $color-negro;
 }

@@ -1,0 +1,16 @@
+.articulos {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.articulos .card {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+}
