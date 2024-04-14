@@ -1,0 +1,36 @@
+h1 {
+    font-size: 40px;
+    font-family: "Rubik Dirt", cursive;
+    font-weight: 250;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+h2 {
+    font-size: 30px;
+    color: $color-azul;
+    text-align: center;
+    font-family: "Rubik Dirt", cursive;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 100;
+    text-decoration: dashed;
+    text-align: center;
+}
+
+.texto-negro {
+    color: $color-negro;
+}
+
+.texto-blanco {
+    color: $color-blanco;
+    padding: auto;
+    text-align: center;
+}
