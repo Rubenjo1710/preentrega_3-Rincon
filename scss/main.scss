@@ -1,12 +1,9 @@
 @import "utilities/variables";
 @import "utilities/mixins";
-
 @import "base/typograpy";
-
 @import "components/buttons";
 @import "components/badge";
 @import "components/card";
-
 @import "layout/articulos";
 @import "Layout/entrenamientos";
 @import "layout/footer";
@@ -15,10 +12,8 @@
 @import "layout/navbar";
 @import "layout/sections";
 @import "layout/testimonios";
-
 @import "views/contactos";
 @import "views/home";
-
 @import "../node_modules/bootstrap/scss/bootstrap"
 
 
