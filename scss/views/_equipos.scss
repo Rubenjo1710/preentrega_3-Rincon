@@ -1,5 +1,23 @@
+/*Pagina equipos*/
+
 .section-team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     border: 1px solid black;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+.section-team img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width: 767.98px) {
+    .section-team img {
+    max-width: 150px;
+    }
 }

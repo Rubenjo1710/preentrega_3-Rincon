@@ -1,3 +1,4 @@
+/*Pagina academia*/
 .section1, .section2, .section3 {
     padding: 50px 0;
     text-align: center;
@@ -13,6 +14,8 @@
 }
 
 .image-column {
+    position: relative;
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,12 +24,21 @@
 }
 
 .image-column img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
     border: 2px solid black;
     transition: transform .3s ease-in-out;
 }
 
-.image-column img:hover {
-    transform: scale(1.1);
+@media (max-width: 767.98px) {
+    .image-column img {
+    max-width: 100%;
+    height: auto;
+    }
 }
 
 @keyframes fade-in {
