@@ -3,11 +3,12 @@
 .navbar {
   padding: 0px 12px;
   font-size: 20px;
-}
+  }
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
 }
+
 /*secciones*/
 .seccion-oscura {
   color: white;
@@ -233,32 +234,6 @@ h3 {
   font-size: 1.2rem;
 }
 
-.contacto button {
-  color: white;
-  font-weight: bold;
-  background-color: transparent;
-  border: 2px solid white;
-  padding: 1.25em 2em;
-  margin: 10px;
-  border-radius: 100px;
-  transition: all 0.2s ease-in-out;
-}
-
-.contacto button:hover {
-  background-color: white;
-  color: black;
-}
-
-.contacto button i {
-  color: white;
-  font-size: 1.3rem;
-  transition: all 0.2s ease-in-out;
-}
-
-.contacto button:hover i {
-  color: black;
-}
-
 /* Pie de pagina (footer) */
 
 footer {
@@ -322,6 +297,29 @@ footer {
 
 .form-group {
   margin-bottom: 20px;
+}
+.boton-form {
+  background-color: blue; 
+  border:black;
+  color: white;
+  padding: 15px 32px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.boton-form:hover {
+  background-color: orangered;
+}
+
+.boton-form:active {
+  background-color: #e2a156;
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
 }
 
 /*Pagina equipos*/

@@ -1,3 +1,5 @@
+/* Contacto */
+
 .contacto .container {
     max-width: 1100px;
     min-height: 200px;
@@ -22,12 +24,26 @@
     font-size: 1.2rem;
 }
 
-.form-container {
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    padding: 20px;
+.boton-form {
+    background-color: blue; 
+    border:black;
+    color: white;
+    padding: 15px 32px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
-.form-group {
-    margin-bottom: 20px;
+.boton-form:hover {
+    background-color: orangered;
 }
+
+.boton-form:active {
+    background-color: #e2a156;
+    box-shadow: 0 5px #666666;
+    transform: translateY(4px);
+    }

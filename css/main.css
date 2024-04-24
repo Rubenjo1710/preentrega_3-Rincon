@@ -21,7 +21,6 @@ h3 {
   font-size: 30px;
   font-style: italic;
   font-weight: 100;
-  -webkit-text-decoration: dashed;
   text-decoration: dashed;
   text-align: center;
 }
@@ -85,7 +84,6 @@ h3 {
   margin: 20px 0;
   transition: all 0.2s ease-in;
 }
-
 .card:hover {
   box-shadow: 0px 1px 4px 1px rgba(128, 128, 128, 0.3019607843);
 }
@@ -310,6 +308,7 @@ h3 {
   color: #656060;
 }
 
+/* Contacto */
 .contacto .container {
   max-width: 1100px;
   min-height: 200px;
@@ -334,14 +333,28 @@ h3 {
   font-size: 1.2rem;
 }
 
-.form-container {
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  padding: 20px;
+.boton-form {
+  background-color: blue;
+  border: black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
 }
 
-.form-group {
-  margin-bottom: 20px;
+.boton-form:hover {
+  background-color: orangered;
+}
+
+.boton-form:active {
+  background-color: #e2a156;
+  box-shadow: 0 5px #666666;
+  transform: translateY(4px);
 }
 
 .hero {
@@ -502,6 +515,6 @@ h3 {
   .academy-text-container {
     order: 2;
   }
-} 
+}
 
 /*# sourceMappingURL=main.css.map */
